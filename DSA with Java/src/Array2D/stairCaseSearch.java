@@ -1,13 +1,13 @@
 package Array2D;
 public class stairCaseSearch {
-    public static boolean stairCaseSearch(int[][] matrix, int key){
+    public static boolean stairCaseSearch(int[][] matrix, int target){
         int row = 0;
         int col= matrix[0].length-1;
         while(row< matrix.length && col>=0){
-            if(matrix[row][col]==key){
+            if(matrix[row][col]==target){
                 System.out.println(matrix[row][col]);
                 return true;
-            } else if (key<matrix[row][col]) {
+            } else if (target<matrix[row][col]) {
                 col--;
             }
             else{
