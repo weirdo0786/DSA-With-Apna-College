@@ -18,6 +18,7 @@ public class charArray {
         System.out.println(str2);
         String st = sc.next();
         System.out.println(st);
+        System.out.println("Sachin");
 
 
     }
