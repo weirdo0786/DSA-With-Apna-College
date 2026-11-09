@@ -35,5 +35,6 @@ public class seach2DMatrix {
         } else {
             System.out.println("Element is not in the array.");
         }
+        System.out.println("Correct solution");
     }
 }
